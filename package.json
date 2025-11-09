@@ -1,0 +1,23 @@
+{
+  "name": "backerman",
+  "version": "0.0.1",
+  "description": "A database backup and restore tool. Backerman - Saving databases, one dump at a time.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:pradeept/Backerman.git"
+  },
+  "license": "ISC",
+  "author": "Pradeep Tarakar",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
