@@ -1,7 +1,6 @@
 <div align='center'>
 
 # Backerman
-
 “Saving databases, one dump at a time.”
 
 </div>
