@@ -10,6 +10,9 @@
   "author": "Pradeep Tarakar",
   "type": "module",
   "main": "index.ts",
+  "bin": {
+    "backerman": "index.ts"
+  },
   "scripts": {
     "dev": "nodemon ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,3 +1,5 @@
-import { cli } from "./src/cli"
+#!/usr/bin/env node
 
-const program = cli()
+import { cli } from "./src/cli/index.ts";
+
+const program = cli();
