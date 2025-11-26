@@ -2,4 +2,8 @@
 
 import { cli } from "./src/cli/index.ts";
 
-const program = cli();
+const main = async () => {
+  const program = await cli();
+};
+
+main();
