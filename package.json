@@ -14,15 +14,19 @@
     "backerman": "index.ts"
   },
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
+    "dev": "bun run index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "commander": "^14.0.2",
-    "ts-node": "^10.9.2",
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0"
+    "@types/node": "^24.10.0",
+    "@types/bun": "latest"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
