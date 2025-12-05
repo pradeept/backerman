@@ -18,7 +18,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.0.2",
     "commander": "^14.0.2",
+    "pg": "^8.16.3",
     "zod": "^4.1.13"
   },
   "devDependencies": {

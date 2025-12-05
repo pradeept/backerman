@@ -1,5 +1,5 @@
 export interface DatabaseAdapter {
-  connect: (url: string) => boolean;
+  connect: (url: string) => Promise<boolean>;
   fetchSchema: () => void;
   fetchSchemaAndData: () => void;
   fetchData: () => void;
